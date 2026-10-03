@@ -51,3 +51,6 @@ def ping_host(host_ip: str):
     """
     # Intentional Flaw 7: Command Injection
     os.system(f"ping -c 1 {host_ip}")
+
+
+# Security Test Scan
